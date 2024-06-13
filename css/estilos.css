@@ -1,0 +1,195 @@
+*{
+    margin: 0%; /* margen como espacio externo*/
+    padding: 0%; /* margen como espacio externo*/
+}
+body{
+    text-align: center;  /*texto centrado*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+nav{
+    background: rgba(255, 192, 203, 0.692);  /*color de fondo*/
+    color: rgb(14, 12, 13); /*color de letra*/
+    height: 4em; /*alto*/
+    position: fixed;/*que el menu no se mueva de una posicion*/
+    width: 100%;
+}nav ul li{
+    display: inline-block; /*alinear horizontalmente*/
+    margin-right: 2em;
+    line-height: 4em;   /*alinear verticalmente*/
+
+}
+nav ul li a{
+    color: rgb(0, 0, 0); /*color de fuente*/
+    font-size: 1.3em;  /*tamaño de la fuente*/
+    text-decoration: none; /*decoracion de texto= ninguna*/
+}
+
+nav ul li a:hover{ /*hover es cuando el puntero esta sobre*/
+    color: rgb(248, 243, 245);
+}header{
+    background-image: url('../img/fondo.jpg'); /*imagen de fondo*/
+/*background-repeat:no repeat/ no repetir imagen de fondo*/
+    padding: 2em 0em;
+    width: 100%;
+} 
+  
+.mi-foto{
+    border-radius: 50%; /*redondear bordes*/
+    border: 5px pink solid; /*borde con ancho color y estilo*/
+    width: 15%;
+}
+#prueba{
+    border: 4px pink outset;/*borde de texto*/
+    width: 50%;
+    font-size: 12px;
+    margin: 3rem auto; /*centrar caja*/
+    padding: 2em;/*centrar caja*/
+}
+
+h1{
+    margin-bottom: 0.5em;
+color: black;
+text-shadow: 2px -2px 5px rgb(255, 125, 147);
+/* sombra de texto ejeX ejeY grosor y color */
+
+}
+.enlace{color: rgb(15, 8, 9);
+
+}
+section{
+    width: 80%;
+    border: 2px rgb(236, 68, 96) ;
+    margin: 2em auto;/* centrar la caja de texto*/
+    padding:2em ;
+    box-shadow: 10px 10px 20px 5px rgb(204, 57, 81);
+    /* sombra de caja, ejeX ejeY difuminado tamaño de color*/
+}
+section h2{
+    color: rgb(207, 55, 81);
+    border-bottom: 4px rgb(199, 64, 86) dashed;
+    margin: 2em ; 
+    font-size: 1.8em;/*tamaño de la fuente*/
+    font-weight: bold;/*ancho de la fuente negrita*/
+}
+#perfil p{
+    margin-bottom: 1em;
+}
+.destacado{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: black;
+}
+.p1{
+    padding: 0.5em;
+    color: rgb(12, 8, 8);
+    text-decoration: none;
+    border: 5px brown outset;
+    background-color: brown;
+    box-shadow: 8px 8px 15px 3px rgb(184, 47, 70);
+    width: 15%;
+    margin: 1em;
+    
+
+}
+.p1:hover{
+    color: rgb(247, 243, 243);
+}
+
+.p3{
+    color: rgb(226, 34, 34);
+    padding: 0.5em;
+    text-decoration: none;
+    border: 5px rgb(78, 16, 26) outset;
+    background-color:rgb(56, 21, 27) ;
+    box-shadow: 8px 8px 15px 3px rgb(78, 24, 33);
+    width:15% ;
+    margin: 1em;
+}
+.p3:hover{
+    color: rgb(10, 10, 10);
+}
+
+.col{
+    vertical-align: top;/*para alinear el contenido desde arriba*/
+    text-align: left;/*alinear texto a la izquierda*/
+    margin-bottom: 1em;
+    display: inline-block;
+}
+#Estudios .col{
+    margin-bottom: 1em;
+    width: 45%;
+}
+#habilidades .col{
+    width: 30%;
+}
+/*las i9magenes se adecuan al tamaño maximo*/
+img{
+    max-width: 50%;
+}
+.logos{
+    width: 30%;
+    display:inline-block ;
+    vertical-align: top;
+
+}
+.texto{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+#proyectos .col{
+    width: 45%;
+}
+.formulario{
+    display: block;/*ALINEACION VERTICAL*/
+    border: 3px rgb(226, 80, 104) solid;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 15px;
+}
+#contactos .col{
+    width: 25%;
+}
+#contactos .mapa{
+    width: 40%;
+}
+#contactos h3{
+    margin-top: 1em;
+}
+#boton:hover{
+    color: brown solid;
+    background-color: brown ;
+
+}
+footer{
+    background: rgb(255, 122, 122);
+    color: rgb(255, 255, 255);
+    padding: 3em;
+}
+footer i{
+    font-size: 1.3em;
+    margin:  0.5em 0.3em;
+    
+}
+footer a{
+    color: rgb(119, 19, 19);
+    text-decoration: none;
+}
+.flecha{
+    box-shadow: 0px 0px 5px 10px brown;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: rgb(189, 76, 76);
+    color: white;
+    font-size: 2em;
+    border-radius: 50%;
+    padding: 0.5em;
+
+}
+.flecha a{
+    color: white;
+}
